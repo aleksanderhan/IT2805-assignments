@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Gløshaugen</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    
+    <header>
+      <h1 style="text-align: center">NTNU Gløshaugen</h1>
+    </header>
+
+    <nav style="text-align: center">
+      <a href="../index.html">Gløshaugen</a> |
+      <a href="../buildings/hovedbygningen.html">Hovedbygningen</a> |
+      <a href="../buildings/realfagsbygget.html">Realfagsbygget</a> |
+      <a href="../buildings/p15.html">Høgskoleringen 3 (P15)</a> |
+      <a href="../buildings/gamlefysikk.html">Gamle fysikk</a> |
+      <a href="../buildings/itbygget.html">IT-Bygget</a> 
+    </nav>
+
+    <hr>
+    <section id="main">
+      <h2>Gamle fysikk</h2>
+      <img src="../images/gamlefysikk.jpg">
+
+      <p>
+	Tegnet av Bredo Greve. Bygget ble tatt i bruk i 1924. I dag huser bygget blant annet studentekspedisjonen til IMEs fakultetadministrasjon.
+      </p>
+    </section>
+    </hr>
+
+  </body>
+</html>

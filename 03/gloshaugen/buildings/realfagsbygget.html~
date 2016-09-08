@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Gløshaugen</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    
+    <header>
+      <h1 style="text-align: center">NTNU Gløshaugen</h1>
+    </header>
+
+    <nav style="text-align: center">
+      <a href="../index.html">Gløshaugen</a> |
+      <a href="../buildings/hovedbygningen.html">Hovedbygningen</a> |
+      <a href="../buildings/realfagsbygget.html">Realfagsbygget</a> |
+      <a href="../buildings/p15.html">Høgskoleringen 3 (P15)</a> |
+      <a href="../buildings/gamlefysikk.html">Gamle fysikk</a> |
+      <a href="../buildings/itbygget.html">IT-Bygget</a> 
+    </nav>
+
+    <hr>
+    <section id="main">
+      <h2>Realfagsbygget</h2>
+      <img src="../images/realfagsbygget.jpg">
+
+      <p>
+	Realfagbygget er en av NTNUs bygninger på Gløshaugen i Trondheim. Det rommer undervisningslokaler, laboratorier, kontorer, 
+	Realfagbiblioteket og kantine for studenter og ansatte ved instituttene for biologi, for fysikk og for kjemi.
+      </p>
+
+      <p>
+	I 1994 ble det gjennomført en åpen arkitektkonkurranse om et realfagbygg på Gløshaugen. Arkitektkontoret Narud-Stokke-Wiig vant konkurransen i samarbeid med 
+	HUS Arkitekter AS, og de fikk oppdraget med å prosjektere det nye bygget. I 1996 vedtok Stortinget å etablere NTNU. Samme år ble det bevilget midler over 
+	statsbudsjettet til å starte byggingen, for å kunne samle de realfaglige fakultetene, som var spredt på flere områder i byen. Grunnarbeidene startet samme 
+	år og 28. mai 1997 ble grunnstenen lagt ned av daværende statsråd Gudmund Hernes.
+      </p>
+    </section>
+    </hr>
+
+  </body>
+</html>

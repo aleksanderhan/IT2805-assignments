@@ -1,0 +1,38 @@
+body {
+    margin:auto;
+}
+
+section {
+    float:left;
+    width:80%;
+}
+
+nav {
+    float:left;
+    width:20%;
+}
+
+header {
+    text-align:left;
+    font-size:24px;
+}
+
+ul {
+    list-style-type:disc;
+}
+
+#text {
+    width:70%;
+}
+
+td {
+    border:1px solid black;
+}
+
+footer {
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    color:gray;
+    font-size:75%;
+}

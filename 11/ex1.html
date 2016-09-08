@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Canvas basics</title>
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+		<canvas id="canvas" width="400" height="300"></canvas>
+	
+		<script type="text/javascript">
+			var canvas = document.getElementById("canvas")
+			var context = canvas.getContext("2d")
+
+			//circle
+			context.beginPath()
+			context.arc(100,100,50,0,2*Math.PI)
+			context.strokeStyle = "red"
+			context.stroke()
+
+			//square
+			context.beginPath()
+			context.rect(200,50,100,100)
+			context.strokeStyle = "blue"
+			context.stroke()
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Arrays and built-in functions</title>
+		<meta charset="utf-8">
+
+		<script type="text/javascript">
+			window.addEventListener("load", displayQuote);
+
+			var quotes = ["I would rather die of passion than of boredom. –Vincent van Gogh", "An unexamined life is not worth living. –Socrates", "Life is what happens to you while you’re busy making other plans. –John Lennon", "You miss 100% of the shots you don’t take. –Wayne Gretzky", "Strive not to be a success, but rather to be of value. –Albert Einstein", "Do what you can, where you are, with what you have. –Teddy Roosevelt", "It does not matter how slowly you go as long as you do not stop. –Confucius", "Build your own dreams, or someone else will hire you to build theirs. –Farrah Gray", "Either write something worth reading or do something worth writing. –Benjamin Franklin", "You can never cross the ocean until you have the courage to lose sight of the shore. –Christopher Columbus"];
+
+			function displayQuote() {
+				var index = Math.floor(Math.random()*10);
+				//console.log(index);
+				document.getElementById("output").innerHTML = quotes[index];
+			}
+		</script>
+
+	</head>
+
+	<body>
+		<h1>Random inspirational quote</h1>
+
+		<output id="output"></output>
+
+	</body>
+
+
+</html>

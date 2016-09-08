@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<countries>
+	<contry>
+		<name>Denmark</name>
+		<capital>Copenhagen</capital>
+		<population>5602628</population>
+		<area unit="km^2">43561</area>
+	</contry>
+
+	<contry>
+		<name>Finland</name>
+		<capital>Helsinki</capital>
+		<population>5426674</population>
+		<area unit="km^2">338534</area>
+	</contry>
+
+	<contry>
+		<name>Iceland</name>
+		<capital>Reykjavik</capital>
+		<population>321857</population>
+		<area unit="km^2">103440</area>
+	</contry>
+
+	<contry>
+		<name>Norway</name>
+		<capital>Oslo</capital>
+		<population>5051275</population>
+		<area unit="km^2">323787</area>
+	</contry>
+
+	<contry>
+		<name>Sewden</name>
+		<capital>Stockholm</capital>
+		<population>9555893</population>
+		<area unit="km^2">447420</area>
+	</contry>
+</countries>

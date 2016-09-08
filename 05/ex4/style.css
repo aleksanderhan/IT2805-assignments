@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+
+nav {
+    float:left;
+    width: 20%;
+}
+
+#main {
+    float: left;
+    width: 80%;
+}
+
+#text {
+    width: 70%
+}
+
+img {
+    border-radius: 10px;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+footer {
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    color:gray;
+    font-size:75%;
+}

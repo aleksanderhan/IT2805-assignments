@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Animation</title>
+        <style>
+            #the-canvas { border: 1px dashed gray }   
+        </style>
+    </head>
+    <body>
+        <canvas id="the-canvas" width="500" height="400">   
+            Your browser does not support the &lt;canvas&gt; element.
+        </canvas>
+
+        <script>
+            var canvas = document.getElementById("the-canvas") 
+            var context = canvas.getContext("2d") 
+            var doge = new Image() 
+            doge.src = "img/doge.jpg"
+
+            var ms = 20
+            setInterval(drawDoge, ms)
+
+            var r = 100
+            var x = 200 + r
+            var y = 150
+            var dogeFrequency = 0.5
+            var w = 2*Math.PI*dogeFrequency
+            var t = 0
+            function drawDoge() {
+                context.clearRect(0,0,500,400)
+                context.drawImage(doge, x, y)
+                x = 200 + r*Math.cos(w*t/1000)
+                y = 150 + r*Math.sin(w*t/1000)
+                t += ms
+            }
+        </script>
+        
+    </body>
+</html>

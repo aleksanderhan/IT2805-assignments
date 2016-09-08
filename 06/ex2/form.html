@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Assignment6: Forms</title>
+	</head>
+
+	<body>
+		<form method="post" action="http://www.idi.ntnu.no/~michailg/IT2805/form.php">
+			<fieldset>
+				<legend>Your information</legend>
+
+				<p><label>*Name: <br><input type="text" name="name" required></label></p>
+				<p><label>*E-mail: <br><input type="email" name="email" required></label></p>
+				<p><label>Address: <br><input type="text" name="address"></label></p>
+				<p><label>Phone number: <br><input type="text" name="phone"></label></p>
+				<p>
+					<label>*Select type of student:</label> <br>
+					<label><input type="radio" name="year" value="1" required> Freshman</label>
+					<label><input type="radio" name="year" value="2"> Sophmore</label>
+					<label><input type="radio" name="year" value="3"> Junior</label>
+					<label><input type="radio" name="year" value="4"> Senior</label>
+				</p>
+				<p>
+					<label>Select classes you are interested in:</label> <br>
+					<input type="checkbox" name="classes[]" value="ITX1001"> ITX1001: HTML Basics <br>
+					<input type="checkbox" name="classes[]" value="ITX1002"> ITX1002: URLs and Site Structures <br>
+					<input type="checkbox" name="classes[]" value="ITX2001"> ITX2001: Introduction to Cascading Style Sheets <br>
+					<input type="checkbox" name="classes[]" value="ITX2002"> ITX2002: CSS Properties and Applications <br>
+					<input type="checkbox" name="classes[]" value="ABC1001"> ABC1001: Working with Multimedia on the Web <br>
+					<input type="checkbox" name="classes[]" value="JSX1000"> JSX1000: Introduction to JavaScript <br>
+					<input type="checkbox" name="classes[]" value="JSX1040"> JSX1040: JavaScript: DOM <br>
+					<input type="checkbox" name="classes[]" value="XML1000"> XML1000: XML: Formatting Namespace Trees <br>
+				</p>
+				<p><label for="startDate">*Expected Start date:</label> <br>
+					<input type="date" name="startDate" id="startDate" required>
+					<label for="startDate">mm/dd/yyy</label>
+				</p>
+				
+				<p><label for="comments">Comments:</label><br>
+					<textarea name="comments" id="comments" cols="30" rows="5" placeholder="Enter your comments or special requests..."></textarea>
+				</p>
+				<p>* are required fields!</p>
+				<p><input type="submit" Value="Submit Form"></p>
+			</fieldset>
+		</form>
+	</body>
+</html>
